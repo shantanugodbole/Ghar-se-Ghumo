@@ -15,10 +15,10 @@ class ModelBloc {
 
   ModelBloc() {
     void _mapEventToState(ModelEvent event) {
-      if (event is StatueModelSelectEvent) {
-        _prefab = strings.statuePrefab;
-      } else if (event is CubeModelSelectEvent) {
-        _prefab = strings.cubePrefab;
+      if (event is TajMahalSelectEvent) {
+        _prefab = strings.tajPrefab;
+      } else if (event is CharminarSelectEvent) {
+        _prefab = strings.charminarPrefab;
       }
 
       _inModel.add(_prefab);

@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: 'BP',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Taj Mahal/dxtgw80m4x2q.obj',
+    name: 'dxtgw80m4x2q',
+    recenter: 'root',
+    scale: 0.0026840000000000002,
+  },
+  version: '0.54:2',
+}

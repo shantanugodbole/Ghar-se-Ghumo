@@ -24,7 +24,7 @@ class _StartingPageState extends State<StartingPage> {
       SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
         statusBarIconBrightness: Brightness.dark,
-        systemNavigationBarColor: Colors.deepPurple,
+        systemNavigationBarColor: Color(0xFFc2185b),
         systemNavigationBarIconBrightness: Brightness.light,
       ),
     );
@@ -34,7 +34,7 @@ class _StartingPageState extends State<StartingPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Color(0xFFc2185b),
         centerTitle: true,
         title: Text(
           'Ghar se Ghumo',
@@ -70,15 +70,17 @@ class _StartingPageState extends State<StartingPage> {
                       mainAxisSpacing: 8.0,
                       children: <Widget>[
                         customContainer(
-                          strings.statuePrefab,
+                          strings.tajPrefab,
                           size,
-                          snapshot.data == strings.statuePrefab,
+                          snapshot.data == strings.tajPrefab,
                         ),
                         customContainer(
-                          strings.cubePrefab,
+                          strings.charminarPrefab,
                           size,
-                          snapshot.data == strings.cubePrefab,
+                          snapshot.data == strings.charminarPrefab,
                         ),
+                        Text("Taj Mahal", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),textAlign: TextAlign.center ,),
+                        Text("Charminar",style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign:TextAlign.center ),
                       ],
                     ),
                   ),
@@ -94,7 +96,7 @@ class _StartingPageState extends State<StartingPage> {
                       strings.start.toUpperCase(),
                       style: TextStyle(
                         fontSize: 50,
-                        color: Colors.deepPurple,
+                        color: Color(0xFFc2185b),
                       ),
                     ),
                     onPressed: () => Navigator.of(context).push(
@@ -115,7 +117,7 @@ class _StartingPageState extends State<StartingPage> {
   }
 
   Widget customContainer(String image, Size size, bool border) {
-    return GestureDetector(
+      return GestureDetector(
       child: AnimatedContainer(
         duration: Duration(milliseconds: 200),
         width: size.width * 7 / 10,
@@ -139,11 +141,11 @@ class _StartingPageState extends State<StartingPage> {
         ),
       ),
       onTap: () => _bloc.modelSink.add(
-        image == strings.statuePrefab
-            ? StatueModelSelectEvent()
-            : CubeModelSelectEvent(),
+        image == strings.tajPrefab
+            ? TajMahalSelectEvent()
+            : CharminarSelectEvent(),
       ),
-    );
+      );
   }
 
   @override

@@ -76,13 +76,28 @@ dependencies {
 }
 
 
-sceneform.asset('sampledata/Cube/scene.gltf',
-        'default',
-        'sampledata/Cube/scene.sfa',
-        'src/main/assets/cubeModel')
+//sceneform.asset('sampledata/Cube/scene.gltf',
+//        'default',
+//        'sampledata/Cube/scene.sfa',
+//        'src/main/assets/cubeModel')
 
 
-sceneform.asset('sampledata/Anubis Statue/scene.gltf',
+//sceneform.asset('sampledata/Anubis Statue/scene.gltf',
+//        'default',
+//        'sampledata/Anubis Statue/scene.sfa',
+//        'src/main/assets/statueModel')
+
+//sceneform.asset('sampledata/Taj Mahal/dxtgw80m4x2q.obj',
+//        'default',
+//        'sampledata/Taj Mahal/dxtgw80m4x2q.sfa',
+//        'src/main/assets/TajMahal')
+
+//sceneform.asset('sampledata/India Gate/IndiaGate.obj',
+//        'default',
+//        'sampledata/India Gate/scene.sfa',
+//        'src/main/assets/IndiaGate')
+
+sceneform.asset('sampledata/Charminar/charminar.obj',
         'default',
-        'sampledata/Anubis Statue/scene.sfa',
-        'src/main/assets/statueModel')
+        'sampledata/Charminar/charminar.sfa',
+        'src/main/assets/CharMinarModel')

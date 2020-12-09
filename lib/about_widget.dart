@@ -8,7 +8,7 @@ class AboutWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Color(0xFFc2185b),
       contentTextStyle: TextStyle(
         color: Colors.white,
         fontSize: 16,

@@ -40,7 +40,7 @@ class _CameraScreenState extends State<CameraScreen> {
     showDialog<void>(
       context: context,
       builder: (BuildContext context) =>
-          AlertDialog(content: Text('This is $name')),
+          AlertDialog(content: Text(name == 'tajmahalModel'? 'The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra.\nIt was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal' : "The Charminar  constructed in 1591, is a monument and mosque located in Hyderabad, Telangana, India.\nThe Charminar's long history includes the existence of a mosque on its top floor for more than 400 years.")),
     );
   }
 
