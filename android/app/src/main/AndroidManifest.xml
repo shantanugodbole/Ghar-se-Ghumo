@@ -11,7 +11,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="LearnARF"
+        android:label="Ghar se Ghumo"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
