@@ -19,4 +19,5 @@ Additionally, it uses the Sceneform SDK to make it easier to handle 3D models
 1. You can find the APK [here](https://drive.google.com/file/d/1EwtzGwUS00at3YlYySY72f21WFPnAiYQ/view?usp=sharing)
 
 
-    Made by [Shantanu](https://github.com/shantanugodbole), [Manas](https://github.com/gandhiboys), Rushikesh and Sushrut for AR-VR project
+    
+<h3 align="center"><b>Developed by <a href="https://github.com/gandhiboys">Manas</a>,<a href="https://github.com/shantanugodbole"> Shantanu</a>, Rushikesh and Sushrut.</b></h3>
