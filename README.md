@@ -20,4 +20,4 @@ Additionally, it uses the Sceneform SDK to make it easier to handle 3D models
 
 
     
-<h3 align="center"><b>Developed by <a href="https://github.com/gandhiboys">Manas</a>,<a href="https://github.com/shantanugodbole"> Shantanu</a>, Rushikesh and Sushrut.</b></h3>
+<h3 align="center"><b>Developed by <a href="https://github.com/gandhiboys">Manas</a>,<a href="https://github.com/shantanugodbole"> Shantanu</a>, <a href="https://github.com/Rushikesharande">Rushikesh</a> and Sushrut.</b></h3>
